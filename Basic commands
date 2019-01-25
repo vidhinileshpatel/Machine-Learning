@@ -1,27 +1,30 @@
-R Programming 
-1)	Comments within a code can be done using #
+Comments within a code can be done using #
 #This is a comment
-log(1)
-2)	Always document your code.
-3)	Variable assignment
+
+Variable assignment
 #declare a variable x and assign a value to it
 x = 1
 In the memory, the value of x gets stored as 1 and can be used for iterations.
-4)	Print multiple lines on the console at the same time
+
+
+Print multiple lines on the console at the same time
 x;y
 if x =1 and y =2
 Output: 
 1
 2
-5)	Object types in R:
-a.	Characters: using single or double quotations
-b.	Integers: 
-c.	Logical variables: TRUE or FALSE, T/F, 1/0 
-6)	Concatenation
+
+Object types in R:
+	a. Characters
+	b. Integers
+	c. Logical variables: TRUE or FALSE, T/F, 1/0 
+
+Concatenation
 example_vector_char <- c('the','cat','in','the','hat')
 example_vector_char <- c('the','cat','in',1,'the','hat') # will store it as ‘1’
 
-7)	Subset a vector and select a few elements by using a square bracket
+
+#Subset a vector and select a few elements by using a square bracket
 example_vector_char <- c('the','cat','in','the','hat')
 example_vector_char[1:3]
 Output:
